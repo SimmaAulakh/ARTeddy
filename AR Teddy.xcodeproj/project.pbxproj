@@ -1,0 +1,784 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9FB7A4547B0970F5F559402A /* Pods_AR_TeddyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD06F98E4BFC123ECA7C8DE3 /* Pods_AR_TeddyTests.framework */; };
+		C15B7E4222318B4900F27E1F /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15B7E4122318B4900F27E1F /* AboutViewController.swift */; };
+		C19B8D08223AB34000C6E5DD /* SideMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19B8D07223AB34000C6E5DD /* SideMenuVC.swift */; };
+		C19B8D0A223ABE2500C6E5DD /* EarlyLifeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19B8D09223ABE2500C6E5DD /* EarlyLifeViewController.swift */; };
+		C1B1B4532228706300F28F1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B1B4522228706300F28F1A /* AppDelegate.swift */; };
+		C1B1B4552228706300F28F1A /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = C1B1B4542228706300F28F1A /* art.scnassets */; };
+		C1B1B4572228706300F28F1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B1B4562228706300F28F1A /* ViewController.swift */; };
+		C1B1B45A2228706300F28F1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1B1B4582228706300F28F1A /* Main.storyboard */; };
+		C1B1B45C2228706600F28F1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1B1B45B2228706600F28F1A /* Assets.xcassets */; };
+		C1B1B45F2228706600F28F1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1B1B45D2228706600F28F1A /* LaunchScreen.storyboard */; };
+		C1B1B46A2228706700F28F1A /* AR_TeddyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B1B4692228706700F28F1A /* AR_TeddyTests.swift */; };
+		C1B1B4752228706700F28F1A /* AR_TeddyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B1B4742228706700F28F1A /* AR_TeddyUITests.swift */; };
+		C1B1B4842228803900F28F1A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B1B4832228803900F28F1A /* MainViewController.swift */; };
+		C1B1B4892229CF3800F28F1A /* AnimationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B1B4882229CF3800F28F1A /* AnimationInfo.swift */; };
+		C1C2DF5F222A894F00B0045C /* AnimatedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C2DF5E222A894F00B0045C /* AnimatedModel.swift */; };
+		C1C2DF61222A8A4500B0045C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C2DF60222A8A4500B0045C /* Extensions.swift */; };
+		C1C2DF63222A934300B0045C /* legend.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C1C2DF62222A934300B0045C /* legend.mp3 */; };
+		C1E5EC872295E1A800758AEA /* 1148.wav in Resources */ = {isa = PBXBuildFile; fileRef = C1E5EC862295E1A800758AEA /* 1148.wav */; };
+		F1CAD5C3A0CBDD8CD9C02B12 /* Pods_AR_TeddyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B4217E72D928B64997B04AF /* Pods_AR_TeddyUITests.framework */; };
+		F51AD89BFD9FF8E000C425AC /* Pods_AR_Teddy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA66A5D37FAF318663406AE2 /* Pods_AR_Teddy.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1B1B4662228706700F28F1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1B1B4472228706300F28F1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1B1B44E2228706300F28F1A;
+			remoteInfo = "AR Teddy";
+		};
+		C1B1B4712228706700F28F1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1B1B4472228706300F28F1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1B1B44E2228706300F28F1A;
+			remoteInfo = "AR Teddy";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09E4156BF8E78D5A3F53F43F /* Pods-AR Teddy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AR Teddy.debug.xcconfig"; path = "Target Support Files/Pods-AR Teddy/Pods-AR Teddy.debug.xcconfig"; sourceTree = "<group>"; };
+		0BB6471980021E1EFF16D54E /* Pods-AR TeddyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AR TeddyTests.release.xcconfig"; path = "Target Support Files/Pods-AR TeddyTests/Pods-AR TeddyTests.release.xcconfig"; sourceTree = "<group>"; };
+		4A5F9EEC857C3B3E3A25BE43 /* Pods-AR TeddyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AR TeddyUITests.debug.xcconfig"; path = "Target Support Files/Pods-AR TeddyUITests/Pods-AR TeddyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4B4217E72D928B64997B04AF /* Pods_AR_TeddyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AR_TeddyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55E46EC9519A5C942ACDB5DD /* Pods-AR Teddy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AR Teddy.release.xcconfig"; path = "Target Support Files/Pods-AR Teddy/Pods-AR Teddy.release.xcconfig"; sourceTree = "<group>"; };
+		B533F80C2D3C4F5ACC2F4A69 /* Pods-AR TeddyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AR TeddyTests.debug.xcconfig"; path = "Target Support Files/Pods-AR TeddyTests/Pods-AR TeddyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BA66A5D37FAF318663406AE2 /* Pods_AR_Teddy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AR_Teddy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD06F98E4BFC123ECA7C8DE3 /* Pods_AR_TeddyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AR_TeddyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C15B7E4122318B4900F27E1F /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		C19B8D07223AB34000C6E5DD /* SideMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuVC.swift; sourceTree = "<group>"; };
+		C19B8D09223ABE2500C6E5DD /* EarlyLifeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarlyLifeViewController.swift; sourceTree = "<group>"; };
+		C1B1B44F2228706300F28F1A /* AR Teddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR Teddy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1B1B4522228706300F28F1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C1B1B4542228706300F28F1A /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		C1B1B4562228706300F28F1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C1B1B4592228706300F28F1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C1B1B45B2228706600F28F1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1B1B45E2228706600F28F1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C1B1B4602228706600F28F1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1B1B4652228706700F28F1A /* AR TeddyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AR TeddyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1B1B4692228706700F28F1A /* AR_TeddyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AR_TeddyTests.swift; sourceTree = "<group>"; };
+		C1B1B46B2228706700F28F1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1B1B4702228706700F28F1A /* AR TeddyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AR TeddyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1B1B4742228706700F28F1A /* AR_TeddyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AR_TeddyUITests.swift; sourceTree = "<group>"; };
+		C1B1B4762228706700F28F1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1B1B4832228803900F28F1A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		C1B1B4882229CF3800F28F1A /* AnimationInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationInfo.swift; sourceTree = "<group>"; };
+		C1C2DF5E222A894F00B0045C /* AnimatedModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedModel.swift; sourceTree = "<group>"; };
+		C1C2DF60222A8A4500B0045C /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		C1C2DF62222A934300B0045C /* legend.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = legend.mp3; sourceTree = "<group>"; };
+		C1E5EC862295E1A800758AEA /* 1148.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 1148.wav; sourceTree = "<group>"; };
+		F91B2CB9D846086325700FB7 /* Pods-AR TeddyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AR TeddyUITests.release.xcconfig"; path = "Target Support Files/Pods-AR TeddyUITests/Pods-AR TeddyUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1B1B44C2228706300F28F1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F51AD89BFD9FF8E000C425AC /* Pods_AR_Teddy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1B1B4622228706700F28F1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FB7A4547B0970F5F559402A /* Pods_AR_TeddyTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1B1B46D2228706700F28F1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1CAD5C3A0CBDD8CD9C02B12 /* Pods_AR_TeddyUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6355F80077E82F1930034D4D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				09E4156BF8E78D5A3F53F43F /* Pods-AR Teddy.debug.xcconfig */,
+				55E46EC9519A5C942ACDB5DD /* Pods-AR Teddy.release.xcconfig */,
+				B533F80C2D3C4F5ACC2F4A69 /* Pods-AR TeddyTests.debug.xcconfig */,
+				0BB6471980021E1EFF16D54E /* Pods-AR TeddyTests.release.xcconfig */,
+				4A5F9EEC857C3B3E3A25BE43 /* Pods-AR TeddyUITests.debug.xcconfig */,
+				F91B2CB9D846086325700FB7 /* Pods-AR TeddyUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		756606DDB98E272B5ABD3A24 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA66A5D37FAF318663406AE2 /* Pods_AR_Teddy.framework */,
+				BD06F98E4BFC123ECA7C8DE3 /* Pods_AR_TeddyTests.framework */,
+				4B4217E72D928B64997B04AF /* Pods_AR_TeddyUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1B1B4462228706300F28F1A = {
+			isa = PBXGroup;
+			children = (
+				C1B1B4512228706300F28F1A /* AR Teddy */,
+				C1B1B4682228706700F28F1A /* AR TeddyTests */,
+				C1B1B4732228706700F28F1A /* AR TeddyUITests */,
+				C1B1B4502228706300F28F1A /* Products */,
+				6355F80077E82F1930034D4D /* Pods */,
+				756606DDB98E272B5ABD3A24 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C1B1B4502228706300F28F1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1B1B44F2228706300F28F1A /* AR Teddy.app */,
+				C1B1B4652228706700F28F1A /* AR TeddyTests.xctest */,
+				C1B1B4702228706700F28F1A /* AR TeddyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1B1B4512228706300F28F1A /* AR Teddy */ = {
+			isa = PBXGroup;
+			children = (
+				C1B1B4872229CF2200F28F1A /* HelpingClasses */,
+				C1B1B4822228800700F28F1A /* Controllers */,
+				C1B1B4522228706300F28F1A /* AppDelegate.swift */,
+				C1B1B4542228706300F28F1A /* art.scnassets */,
+				C1B1B4562228706300F28F1A /* ViewController.swift */,
+				C1B1B4582228706300F28F1A /* Main.storyboard */,
+				C1B1B45B2228706600F28F1A /* Assets.xcassets */,
+				C1B1B45D2228706600F28F1A /* LaunchScreen.storyboard */,
+				C1B1B4602228706600F28F1A /* Info.plist */,
+			);
+			path = "AR Teddy";
+			sourceTree = "<group>";
+		};
+		C1B1B4682228706700F28F1A /* AR TeddyTests */ = {
+			isa = PBXGroup;
+			children = (
+				C1B1B4692228706700F28F1A /* AR_TeddyTests.swift */,
+				C1B1B46B2228706700F28F1A /* Info.plist */,
+			);
+			path = "AR TeddyTests";
+			sourceTree = "<group>";
+		};
+		C1B1B4732228706700F28F1A /* AR TeddyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C1B1B4742228706700F28F1A /* AR_TeddyUITests.swift */,
+				C1B1B4762228706700F28F1A /* Info.plist */,
+			);
+			path = "AR TeddyUITests";
+			sourceTree = "<group>";
+		};
+		C1B1B4822228800700F28F1A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C1B1B4832228803900F28F1A /* MainViewController.swift */,
+				C15B7E4122318B4900F27E1F /* AboutViewController.swift */,
+				C19B8D07223AB34000C6E5DD /* SideMenuVC.swift */,
+				C19B8D09223ABE2500C6E5DD /* EarlyLifeViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C1B1B4872229CF2200F28F1A /* HelpingClasses */ = {
+			isa = PBXGroup;
+			children = (
+				C1B1B4882229CF3800F28F1A /* AnimationInfo.swift */,
+				C1C2DF5E222A894F00B0045C /* AnimatedModel.swift */,
+				C1E5EC862295E1A800758AEA /* 1148.wav */,
+				C1C2DF62222A934300B0045C /* legend.mp3 */,
+				C1C2DF60222A8A4500B0045C /* Extensions.swift */,
+			);
+			path = HelpingClasses;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1B1B44E2228706300F28F1A /* AR Teddy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1B1B4792228706700F28F1A /* Build configuration list for PBXNativeTarget "AR Teddy" */;
+			buildPhases = (
+				59B235A1635177D63FA6C41A /* [CP] Check Pods Manifest.lock */,
+				C1B1B44B2228706300F28F1A /* Sources */,
+				C1B1B44C2228706300F28F1A /* Frameworks */,
+				C1B1B44D2228706300F28F1A /* Resources */,
+				36C9F5272AA8699A1E83AB7F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AR Teddy";
+			productName = "AR Teddy";
+			productReference = C1B1B44F2228706300F28F1A /* AR Teddy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C1B1B4642228706700F28F1A /* AR TeddyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1B1B47C2228706700F28F1A /* Build configuration list for PBXNativeTarget "AR TeddyTests" */;
+			buildPhases = (
+				96C45809A5D971ACFE04D8D4 /* [CP] Check Pods Manifest.lock */,
+				C1B1B4612228706700F28F1A /* Sources */,
+				C1B1B4622228706700F28F1A /* Frameworks */,
+				C1B1B4632228706700F28F1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1B1B4672228706700F28F1A /* PBXTargetDependency */,
+			);
+			name = "AR TeddyTests";
+			productName = "AR TeddyTests";
+			productReference = C1B1B4652228706700F28F1A /* AR TeddyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C1B1B46F2228706700F28F1A /* AR TeddyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1B1B47F2228706700F28F1A /* Build configuration list for PBXNativeTarget "AR TeddyUITests" */;
+			buildPhases = (
+				9201CCE16F527CC6D287E28C /* [CP] Check Pods Manifest.lock */,
+				C1B1B46C2228706700F28F1A /* Sources */,
+				C1B1B46D2228706700F28F1A /* Frameworks */,
+				C1B1B46E2228706700F28F1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1B1B4722228706700F28F1A /* PBXTargetDependency */,
+			);
+			name = "AR TeddyUITests";
+			productName = "AR TeddyUITests";
+			productReference = C1B1B4702228706700F28F1A /* AR TeddyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1B1B4472228706300F28F1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = VajinderSingh;
+				TargetAttributes = {
+					C1B1B44E2228706300F28F1A = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					C1B1B4642228706700F28F1A = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C1B1B44E2228706300F28F1A;
+					};
+					C1B1B46F2228706700F28F1A = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C1B1B44E2228706300F28F1A;
+					};
+				};
+			};
+			buildConfigurationList = C1B1B44A2228706300F28F1A /* Build configuration list for PBXProject "AR Teddy" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1B1B4462228706300F28F1A;
+			productRefGroup = C1B1B4502228706300F28F1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1B1B44E2228706300F28F1A /* AR Teddy */,
+				C1B1B4642228706700F28F1A /* AR TeddyTests */,
+				C1B1B46F2228706700F28F1A /* AR TeddyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1B1B44D2228706300F28F1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1B1B4552228706300F28F1A /* art.scnassets in Resources */,
+				C1B1B45F2228706600F28F1A /* LaunchScreen.storyboard in Resources */,
+				C1E5EC872295E1A800758AEA /* 1148.wav in Resources */,
+				C1B1B45C2228706600F28F1A /* Assets.xcassets in Resources */,
+				C1C2DF63222A934300B0045C /* legend.mp3 in Resources */,
+				C1B1B45A2228706300F28F1A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1B1B4632228706700F28F1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1B1B46E2228706700F28F1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		36C9F5272AA8699A1E83AB7F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AR Teddy/Pods-AR Teddy-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AR Teddy/Pods-AR Teddy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59B235A1635177D63FA6C41A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AR Teddy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9201CCE16F527CC6D287E28C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AR TeddyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96C45809A5D971ACFE04D8D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AR TeddyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1B1B44B2228706300F28F1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1B1B4842228803900F28F1A /* MainViewController.swift in Sources */,
+				C1C2DF61222A8A4500B0045C /* Extensions.swift in Sources */,
+				C1B1B4572228706300F28F1A /* ViewController.swift in Sources */,
+				C15B7E4222318B4900F27E1F /* AboutViewController.swift in Sources */,
+				C1B1B4892229CF3800F28F1A /* AnimationInfo.swift in Sources */,
+				C1C2DF5F222A894F00B0045C /* AnimatedModel.swift in Sources */,
+				C19B8D08223AB34000C6E5DD /* SideMenuVC.swift in Sources */,
+				C19B8D0A223ABE2500C6E5DD /* EarlyLifeViewController.swift in Sources */,
+				C1B1B4532228706300F28F1A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1B1B4612228706700F28F1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1B1B46A2228706700F28F1A /* AR_TeddyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1B1B46C2228706700F28F1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1B1B4752228706700F28F1A /* AR_TeddyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1B1B4672228706700F28F1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1B1B44E2228706300F28F1A /* AR Teddy */;
+			targetProxy = C1B1B4662228706700F28F1A /* PBXContainerItemProxy */;
+		};
+		C1B1B4722228706700F28F1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1B1B44E2228706300F28F1A /* AR Teddy */;
+			targetProxy = C1B1B4712228706700F28F1A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C1B1B4582228706300F28F1A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1B1B4592228706300F28F1A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C1B1B45D2228706600F28F1A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1B1B45E2228706600F28F1A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1B1B4772228706700F28F1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C1B1B4782228706700F28F1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1B1B47A2228706700F28F1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09E4156BF8E78D5A3F53F43F /* Pods-AR Teddy.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47NS9U45CD;
+				INFOPLIST_FILE = "AR Teddy/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "vajinderS.AR-Teddy.m";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C1B1B47B2228706700F28F1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55E46EC9519A5C942ACDB5DD /* Pods-AR Teddy.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47NS9U45CD;
+				INFOPLIST_FILE = "AR Teddy/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "vajinderS.AR-Teddy.m";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C1B1B47D2228706700F28F1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B533F80C2D3C4F5ACC2F4A69 /* Pods-AR TeddyTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "AR TeddyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "vajinderS.AR-TeddyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AR Teddy.app/AR Teddy";
+			};
+			name = Debug;
+		};
+		C1B1B47E2228706700F28F1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BB6471980021E1EFF16D54E /* Pods-AR TeddyTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "AR TeddyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "vajinderS.AR-TeddyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AR Teddy.app/AR Teddy";
+			};
+			name = Release;
+		};
+		C1B1B4802228706700F28F1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A5F9EEC857C3B3E3A25BE43 /* Pods-AR TeddyUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "AR TeddyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "vajinderS.AR-TeddyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AR Teddy";
+			};
+			name = Debug;
+		};
+		C1B1B4812228706700F28F1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F91B2CB9D846086325700FB7 /* Pods-AR TeddyUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "AR TeddyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "vajinderS.AR-TeddyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AR Teddy";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1B1B44A2228706300F28F1A /* Build configuration list for PBXProject "AR Teddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1B1B4772228706700F28F1A /* Debug */,
+				C1B1B4782228706700F28F1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1B1B4792228706700F28F1A /* Build configuration list for PBXNativeTarget "AR Teddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1B1B47A2228706700F28F1A /* Debug */,
+				C1B1B47B2228706700F28F1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1B1B47C2228706700F28F1A /* Build configuration list for PBXNativeTarget "AR TeddyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1B1B47D2228706700F28F1A /* Debug */,
+				C1B1B47E2228706700F28F1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1B1B47F2228706700F28F1A /* Build configuration list for PBXNativeTarget "AR TeddyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1B1B4802228706700F28F1A /* Debug */,
+				C1B1B4812228706700F28F1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1B1B4472228706300F28F1A /* Project object */;
+}

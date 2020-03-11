@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Ug7-OW-dEc">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tXr-a1-R10">
+            <objects>
+                <viewController storyboardIdentifier="ViewController" id="BV1-FR-VrT" customClass="ViewController" customModule="AR_Teddy" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="U0K-SW-4ec">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BrB-h1-WRS">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </arscnView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bup-ef-kNr">
+                                <rect key="frame" x="20" y="40" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="GUb-f3-ifE"/>
+                                    <constraint firstAttribute="height" constant="40" id="ZdF-cs-qp4"/>
+                                </constraints>
+                                <state key="normal" image="bck"/>
+                                <connections>
+                                    <action selector="backBtnClicked:" destination="BV1-FR-VrT" eventType="touchUpInside" id="ysb-CC-fWK"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="BrB-h1-WRS" firstAttribute="leading" secondItem="fQZ-KI-GVf" secondAttribute="leading" id="GsS-dJ-CKf"/>
+                            <constraint firstItem="BrB-h1-WRS" firstAttribute="bottom" secondItem="fQZ-KI-GVf" secondAttribute="bottom" id="VpT-BR-CcM"/>
+                            <constraint firstItem="BrB-h1-WRS" firstAttribute="trailing" secondItem="fQZ-KI-GVf" secondAttribute="trailing" id="XyZ-9z-H8e"/>
+                            <constraint firstItem="bup-ef-kNr" firstAttribute="top" secondItem="fQZ-KI-GVf" secondAttribute="top" constant="20" id="by4-mg-z9W"/>
+                            <constraint firstItem="bup-ef-kNr" firstAttribute="leading" secondItem="fQZ-KI-GVf" secondAttribute="leading" constant="20" id="fys-d1-RHR"/>
+                            <constraint firstItem="BrB-h1-WRS" firstAttribute="top" secondItem="U0K-SW-4ec" secondAttribute="top" id="rJc-2c-zQA"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="fQZ-KI-GVf"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="4mC-Ig-CdG"/>
+                    <connections>
+                        <outlet property="sceneView" destination="BrB-h1-WRS" id="5nT-qQ-ynl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2969" y="109"/>
+        </scene>
+        <!--About View Controller-->
+        <scene sceneID="wmk-yZ-xeq">
+            <objects>
+                <viewController storyboardIdentifier="AboutViewController" id="55S-gh-snO" customClass="AboutViewController" customModule="AR_Teddy" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vZU-3u-Tnt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lkg-fS-dag">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vFy-vK-4Hk">
+                                        <rect key="frame" x="0.0" y="20" width="375" height="1452"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="presidentRoosvelt" translatesAutoresizingMaskIntoConstraints="NO" id="4Ud-Se-y2G">
+                                                <rect key="frame" x="67" y="91" width="240" height="230"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="230" id="2Da-ss-SKw"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Theodore Roosevelt" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2oq-Oh-ejT">
+                                                <rect key="frame" x="20" y="20" width="335" height="40"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="EfB-H5-I9W"/>
+                                                    <constraint firstAttribute="height" constant="40" id="MrV-EX-2pl"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="25"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hYW-gt-ghm">
+                                                <rect key="frame" x="20" y="351" width="335" height="1066"/>
+                                                <string key="text">The rising young Republican politician Theodore Roosevelt unexpectedly became the 26th president of the United States in September 1901, after the assassination of William McKinley. Young and physically robust, he brought a new energy to the White House, and won a second term on his own merits in 1904. Roosevelt confronted the bitter struggle between management and labor head-on and became known as the great “trust buster” for his strenuous efforts to break up industrial combinations under the Sherman Antitrust Act. He was also a dedicated conservationist, setting aside some 200 million acres for national forests, reserves and wildlife refuges during his presidency. In the foreign policy arena, Roosevelt won a Nobel Peace Prize for his negotiations to end the Russo-Japanese War and spearheaded the beginning of construction on the Panama Canal. After leaving the White House and going on safari in Africa, he returned to politics in 1912, mounting a failed run for president at the head of a new Progressive Party.                                     Theodore Roosevelt’s Early Life and Career
+Theodore Roosevelt was born on October 27, 1858, into a wealthy family in New York City. Known as “Teedie”–later “Teddy”–he was frail and sickly as a boy, and as a teenager followed a program of gymnastics and weightlifting to build up his strength. Upon graduating from Harvard College in 1880, Roosevelt married Alice Hathaway Lee and entered Columbia University Law School, though he dropped out after only one year to enter public service. He was elected to the New York State Assembly at the age of 23, and served two terms (1882-84). Both his wife and mother died on the same day in 1884, and the grieving Roosevelt spent the next two years on a ranch he owned in the Badlands of the Dakota Territory, where he hunted big game, drove cattle and worked as a frontier sheriff. Upon returning to New York, he married his childhood sweetheart, Edith Kermit Carow. The couple would raise six children, including Roosevelt’s daughter from his first marriage, Alice.</string>
+                                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iNw-F3-0VG">
+                                                <rect key="frame" x="8" y="21" width="38" height="38"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="38" id="dI2-OF-KYI"/>
+                                                    <constraint firstAttribute="width" constant="38" id="dSJ-tA-Fev"/>
+                                                </constraints>
+                                                <state key="normal" image="back"/>
+                                                <connections>
+                                                    <action selector="backBtnClicked:" destination="55S-gh-snO" eventType="touchUpInside" id="vLy-IX-Ym9"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="hYW-gt-ghm" secondAttribute="trailing" constant="20" id="0FM-fW-IQG"/>
+                                            <constraint firstAttribute="bottom" secondItem="hYW-gt-ghm" secondAttribute="bottom" constant="35" id="1pz-mT-aMP"/>
+                                            <constraint firstAttribute="trailing" secondItem="4Ud-Se-y2G" secondAttribute="trailing" constant="68" id="9mk-gF-PGJ"/>
+                                            <constraint firstItem="4Ud-Se-y2G" firstAttribute="top" secondItem="2oq-Oh-ejT" secondAttribute="bottom" constant="31" id="FRL-WH-ocC"/>
+                                            <constraint firstItem="hYW-gt-ghm" firstAttribute="top" secondItem="4Ud-Se-y2G" secondAttribute="bottom" constant="30" id="Htf-tt-xui"/>
+                                            <constraint firstItem="hYW-gt-ghm" firstAttribute="leading" secondItem="vFy-vK-4Hk" secondAttribute="leading" constant="20" id="QFv-lB-CX9"/>
+                                            <constraint firstAttribute="trailing" secondItem="2oq-Oh-ejT" secondAttribute="trailing" constant="20" id="dSW-DE-qTr"/>
+                                            <constraint firstItem="2oq-Oh-ejT" firstAttribute="top" secondItem="vFy-vK-4Hk" secondAttribute="top" constant="20" id="hcD-jx-2Eq"/>
+                                            <constraint firstItem="2oq-Oh-ejT" firstAttribute="leading" secondItem="vFy-vK-4Hk" secondAttribute="leading" constant="20" id="o8f-l7-FQF"/>
+                                            <constraint firstItem="4Ud-Se-y2G" firstAttribute="leading" secondItem="vFy-vK-4Hk" secondAttribute="leading" constant="67" id="rHl-yn-OYA"/>
+                                            <constraint firstItem="iNw-F3-0VG" firstAttribute="leading" secondItem="vFy-vK-4Hk" secondAttribute="leading" constant="8" id="uiS-1s-S3g"/>
+                                            <constraint firstItem="iNw-F3-0VG" firstAttribute="centerY" secondItem="2oq-Oh-ejT" secondAttribute="centerY" id="z60-ye-y1T"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="vFy-vK-4Hk" firstAttribute="centerX" secondItem="Lkg-fS-dag" secondAttribute="centerX" id="1hx-ML-g4u"/>
+                                    <constraint firstItem="vFy-vK-4Hk" firstAttribute="top" secondItem="Lkg-fS-dag" secondAttribute="top" constant="20" id="CnG-Bk-PHq"/>
+                                    <constraint firstAttribute="bottom" secondItem="vFy-vK-4Hk" secondAttribute="bottom" constant="-23" id="Hjt-M4-IQr"/>
+                                    <constraint firstAttribute="trailing" secondItem="vFy-vK-4Hk" secondAttribute="trailing" id="aVr-UC-EfZ"/>
+                                    <constraint firstItem="vFy-vK-4Hk" firstAttribute="leading" secondItem="Lkg-fS-dag" secondAttribute="leading" id="fBI-Ey-9QU"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Lkg-fS-dag" firstAttribute="bottom" secondItem="dga-CJ-gVT" secondAttribute="bottom" id="X6X-Ij-yEC"/>
+                            <constraint firstItem="Lkg-fS-dag" firstAttribute="trailing" secondItem="dga-CJ-gVT" secondAttribute="trailing" id="eNd-Lw-mxY"/>
+                            <constraint firstItem="Lkg-fS-dag" firstAttribute="leading" secondItem="dga-CJ-gVT" secondAttribute="leading" id="pAd-5K-Pk1"/>
+                            <constraint firstItem="Lkg-fS-dag" firstAttribute="top" secondItem="dga-CJ-gVT" secondAttribute="top" id="wA2-MX-cvM"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="dga-CJ-gVT"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="U0W-nh-OSZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3816.8000000000002" y="107.49625187406298"/>
+        </scene>
+        <!--Early Life View Controller-->
+        <scene sceneID="baz-Br-phm">
+            <objects>
+                <viewController storyboardIdentifier="EarlyLifeViewController" id="L5q-hm-VzF" customClass="EarlyLifeViewController" customModule="AR_Teddy" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YSI-V8-KXb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Wu-0q-hlD">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Early life and family" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5au-xU-Eva">
+                                        <rect key="frame" x="20" y="20" width="335" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="KhG-ak-TI7"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="24"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TR13" translatesAutoresizingMaskIntoConstraints="NO" id="d8J-nM-B9k">
+                                        <rect key="frame" x="67" y="82" width="240" height="226"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="226" id="Kl3-wV-tH2"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fAI-lw-tSF">
+                                        <rect key="frame" x="20" y="328" width="335" height="2151.5"/>
+                                        <string key="text">Theodore Roosevelt Jr. was born on October 27, 1858, at East 20th Street in New York City. He was the second of four children born to socialite Martha Stewart "Mittie" Bulloch and businessman and philanthropist Theodore Roosevelt Sr. (brother of Robert Roosevelt and James A. Roosevelt, all sons of Cornelius Roosevelt). He had an older sister, Anna (nicknamed "Bamie"), a younger brother, Elliott, and a younger sister, Corinne. Elliott was later the father of First Lady Anna Eleanor Roosevelt, the wife of Theodore's distant cousin, President Franklin Delano Roosevelt. His paternal grandfather was of Dutch descent;[6] his other ancestry included primarily Scottish and Scots-Irish, English and smaller amounts of German, Welsh, and French. Theodore Sr. was the fifth son of businessman Cornelius Van Schaack "C.V.S." Roosevelt and Margaret Barnhill. Theodore's fourth cousin, James Roosevelt I, who was also a businessman, was the father of President Franklin Delano Roosevelt. Mittie was the younger daughter of Major James Stephens Bulloch and Martha P. "Patsy" Stewart. Through the Van Schaacks, Roosevelt was a descendant of the Schuyler family.
+
+Roosevelt's youth was largely shaped by his poor health and debilitating asthma. He repeatedly experienced sudden nighttime asthma attacks that caused the experience of being smothered to death, which terrified both Theodore and his parents. Doctors had no cure. Nevertheless, he was energetic and mischievously inquisitive. His lifelong interest in zoology began at age seven when he saw a dead seal at a local market; after obtaining the seal's head, Roosevelt and two cousins formed what they called the "Roosevelt Museum of Natural History". Having learned the rudiments of taxidermy, he filled his makeshift museum with animals that he killed or caught; he then studied the animals and prepared them for display. At age nine, he recorded his observation of insects in a paper entitled "The Natural History of Insects".
+
+Roosevelt's father significantly influenced him. His father was a prominent leader in New York's cultural affairs; he helped to found the Metropolitan Museum of Art, and had been especially active in mobilizing support for the Union during the Civil War, even though his in-laws included Confederate leaders. Roosevelt said, "My father, Theodore Roosevelt, was the best man I ever knew. He combined strength and courage with gentleness, tenderness, and great unselfishness. He would not tolerate in us children selfishness or cruelty, idleness, cowardice, or untruthfulness." Family trips abroad, including tours of Europe in 1869 and 1870, and Egypt in 1872, shaped his cosmopolitan perspective.[14] Hiking with his family in the Alps in 1869, Roosevelt found that he could keep pace with his father. He had discovered the significant benefits of physical exertion to minimize his asthma and bolster his spirits.[15] Roosevelt began a heavy regime of exercise. After being manhandled by two older boys on a camping trip, he found a boxing coach to teach him to fight and strengthen his body.                              A 6-year-old Roosevelt witnessed the funeral procession of Abraham Lincoln from his grandfather's mansion in Union Square, New York City where he was photographed in the window along with his brother Elliot, as confirmed by wife Edith who was also present.</string>
+                                        <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="19"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x41-EH-rDZ">
+                                        <rect key="frame" x="8" y="21" width="38" height="38"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="38" id="8z9-cX-PDK"/>
+                                            <constraint firstAttribute="height" constant="38" id="R8f-GE-jic"/>
+                                        </constraints>
+                                        <state key="normal" image="back"/>
+                                        <connections>
+                                            <action selector="backBtnClicked:" destination="L5q-hm-VzF" eventType="touchUpInside" id="DUd-x3-vvl"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="fAI-lw-tSF" secondAttribute="trailing" constant="20" id="4AP-CC-8Iq"/>
+                                    <constraint firstItem="fAI-lw-tSF" firstAttribute="leading" secondItem="0Wu-0q-hlD" secondAttribute="leading" constant="20" id="C6x-ga-ruO"/>
+                                    <constraint firstAttribute="trailing" secondItem="d8J-nM-B9k" secondAttribute="trailing" constant="68" id="Fdb-ck-kPW"/>
+                                    <constraint firstItem="fAI-lw-tSF" firstAttribute="top" secondItem="d8J-nM-B9k" secondAttribute="bottom" constant="20" id="I1X-WX-7CL"/>
+                                    <constraint firstItem="5au-xU-Eva" firstAttribute="top" secondItem="0Wu-0q-hlD" secondAttribute="top" constant="20" id="QxN-ZL-hfB"/>
+                                    <constraint firstItem="5au-xU-Eva" firstAttribute="leading" secondItem="0Wu-0q-hlD" secondAttribute="leading" constant="20" id="TY6-YZ-Glt"/>
+                                    <constraint firstItem="x41-EH-rDZ" firstAttribute="leading" secondItem="0Wu-0q-hlD" secondAttribute="leading" constant="8" id="ZEH-7M-IF1"/>
+                                    <constraint firstItem="d8J-nM-B9k" firstAttribute="top" secondItem="5au-xU-Eva" secondAttribute="bottom" constant="22" id="d5k-Z5-Ks9"/>
+                                    <constraint firstItem="d8J-nM-B9k" firstAttribute="leading" secondItem="0Wu-0q-hlD" secondAttribute="leading" constant="67" id="e3n-ZS-4eR"/>
+                                    <constraint firstAttribute="trailing" secondItem="5au-xU-Eva" secondAttribute="trailing" constant="20" id="ijd-U4-4Fz"/>
+                                    <constraint firstItem="x41-EH-rDZ" firstAttribute="centerY" secondItem="5au-xU-Eva" secondAttribute="centerY" id="nH9-SJ-P2v"/>
+                                    <constraint firstAttribute="bottom" secondItem="fAI-lw-tSF" secondAttribute="bottom" constant="20" id="x8y-vs-EyE"/>
+                                    <constraint firstItem="5au-xU-Eva" firstAttribute="centerX" secondItem="0Wu-0q-hlD" secondAttribute="centerX" id="yu5-Uc-cSN"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="0Wu-0q-hlD" firstAttribute="trailing" secondItem="YUr-mF-prW" secondAttribute="trailing" id="BrB-rd-fTR"/>
+                            <constraint firstItem="0Wu-0q-hlD" firstAttribute="top" secondItem="YUr-mF-prW" secondAttribute="top" id="LEe-5a-cst"/>
+                            <constraint firstItem="0Wu-0q-hlD" firstAttribute="leading" secondItem="YUr-mF-prW" secondAttribute="leading" id="fmC-X7-o0v"/>
+                            <constraint firstItem="0Wu-0q-hlD" firstAttribute="bottom" secondItem="YUr-mF-prW" secondAttribute="bottom" id="ndc-cC-faK"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="YUr-mF-prW"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XMN-D7-C4y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4646" y="109"/>
+        </scene>
+        <!--Side MenuVC-->
+        <scene sceneID="ipq-Je-hhM">
+            <objects>
+                <viewController id="vRi-9J-8h2" customClass="SideMenuVC" customModule="AR_Teddy" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kNN-f9-Gbp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arTeddyLogo" translatesAutoresizingMaskIntoConstraints="NO" id="gfq-Nj-LwW">
+                                <rect key="frame" x="0.0" y="0.0" width="254" height="250"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="254" id="J0n-k2-L9q"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gkl-iL-uQ6">
+                                <rect key="frame" x="0.0" y="270" width="375" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="wjI-ZA-0Ri"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="22"/>
+                                <inset key="titleEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="About Roosevelt">
+                                    <color key="titleColor" red="0.24446842069999999" green="0.1795503795" blue="0.2081061602" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="aboutRooseveltBtnClicked:" destination="vRi-9J-8h2" eventType="touchUpInside" id="jjA-yi-Abc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N00-aj-uED">
+                                <rect key="frame" x="0.0" y="350" width="375" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="OQi-tq-qLb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="22"/>
+                                <inset key="titleEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Early Life">
+                                    <color key="titleColor" red="0.24446842069999999" green="0.1795503795" blue="0.2081061602" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="earlyLifeBtnClicked:" destination="vRi-9J-8h2" eventType="touchUpInside" id="bgh-la-rjN"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="xpC-VF-9M8" firstAttribute="trailing" secondItem="N00-aj-uED" secondAttribute="trailing" id="Ady-Wc-i4W"/>
+                            <constraint firstItem="gkl-iL-uQ6" firstAttribute="leading" secondItem="xpC-VF-9M8" secondAttribute="leading" id="HKk-cH-ET0"/>
+                            <constraint firstItem="xpC-VF-9M8" firstAttribute="trailing" secondItem="gkl-iL-uQ6" secondAttribute="trailing" id="JET-wP-nqF"/>
+                            <constraint firstItem="gfq-Nj-LwW" firstAttribute="top" secondItem="kNN-f9-Gbp" secondAttribute="top" id="PPT-jj-fCr"/>
+                            <constraint firstItem="gfq-Nj-LwW" firstAttribute="leading" secondItem="xpC-VF-9M8" secondAttribute="leading" id="R6R-w8-tD4"/>
+                            <constraint firstItem="gkl-iL-uQ6" firstAttribute="top" secondItem="gfq-Nj-LwW" secondAttribute="bottom" constant="20" id="Tph-cg-Rg3"/>
+                            <constraint firstItem="N00-aj-uED" firstAttribute="top" secondItem="gkl-iL-uQ6" secondAttribute="bottom" constant="20" id="VAc-EZ-Tdc"/>
+                            <constraint firstItem="gfq-Nj-LwW" firstAttribute="height" secondItem="kNN-f9-Gbp" secondAttribute="height" multiplier="0.3748" id="ZYt-Xg-hAC"/>
+                            <constraint firstItem="N00-aj-uED" firstAttribute="leading" secondItem="xpC-VF-9M8" secondAttribute="leading" id="agT-Gp-vVa"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="xpC-VF-9M8"/>
+                    </view>
+                    <navigationItem key="navigationItem" largeTitleDisplayMode="never" id="478-ji-y2B"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NWf-6U-4tc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2164" y="829.83508245877067"/>
+        </scene>
+        <!--Main View Controller-->
+        <scene sceneID="u3a-Bq-4ZL">
+            <objects>
+                <viewController storyboardIdentifier="MainViewController" id="BM5-6X-DnV" customClass="MainViewController" customModule="AR_Teddy" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HGr-5X-Xw1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ySr-rz-knd">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AR Teddy" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hxT-M4-FCj">
+                                        <rect key="frame" x="20" y="50" width="335" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="IuH-UB-szF"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="40"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iua-y5-30e">
+                                        <rect key="frame" x="30" y="546.5" width="315" height="60.5"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="26"/>
+                                        <state key="normal" title="Scan Teddy Roosevelt">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="scanTeddyBtnClicked:" destination="BM5-6X-DnV" eventType="touchUpInside" id="khR-GW-Wmj"/>
+                                        </connections>
+                                    </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rooseveltMainImg" translatesAutoresizingMaskIntoConstraints="NO" id="bEE-LJ-b22">
+                                        <rect key="frame" x="67" y="121" width="241" height="391.5"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="72S-Ql-urp">
+                                        <rect key="frame" x="20" y="57.5" width="35" height="35"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="35" id="g97-d9-Wy5"/>
+                                            <constraint firstAttribute="height" constant="35" id="kAN-Rj-Q4y"/>
+                                        </constraints>
+                                        <state key="normal" image="menuIcon"/>
+                                        <connections>
+                                            <segue destination="8jy-Dr-Duj" kind="presentation" id="y89-wq-V3W"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.24446842069999999" green="0.1795503795" blue="0.2081061602" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="Iua-y5-30e" secondAttribute="bottom" constant="60" id="2XA-Na-Rir"/>
+                                    <constraint firstAttribute="trailing" secondItem="hxT-M4-FCj" secondAttribute="trailing" constant="20" id="M4o-fD-xVy"/>
+                                    <constraint firstItem="72S-Ql-urp" firstAttribute="leading" secondItem="ySr-rz-knd" secondAttribute="leading" constant="20" id="Meo-Ez-9OY"/>
+                                    <constraint firstItem="Iua-y5-30e" firstAttribute="height" secondItem="ySr-rz-knd" secondAttribute="height" multiplier="0.091" id="MuL-Ja-WWW"/>
+                                    <constraint firstItem="Iua-y5-30e" firstAttribute="leading" secondItem="ySr-rz-knd" secondAttribute="leading" constant="30" id="NFl-Za-M7G"/>
+                                    <constraint firstAttribute="trailing" secondItem="bEE-LJ-b22" secondAttribute="trailing" constant="67" id="PCB-xO-Hlu"/>
+                                    <constraint firstItem="bEE-LJ-b22" firstAttribute="top" secondItem="hxT-M4-FCj" secondAttribute="bottom" constant="21" id="RYR-BD-f4s"/>
+                                    <constraint firstItem="Iua-y5-30e" firstAttribute="top" secondItem="bEE-LJ-b22" secondAttribute="bottom" constant="34" id="Yym-kF-BCn"/>
+                                    <constraint firstItem="hxT-M4-FCj" firstAttribute="top" secondItem="ySr-rz-knd" secondAttribute="top" constant="50" id="bOk-xG-kBT"/>
+                                    <constraint firstItem="hxT-M4-FCj" firstAttribute="leading" secondItem="ySr-rz-knd" secondAttribute="leading" constant="20" id="d2w-tp-kvg"/>
+                                    <constraint firstItem="bEE-LJ-b22" firstAttribute="leading" secondItem="ySr-rz-knd" secondAttribute="leading" constant="67" id="iq8-sb-Ooh"/>
+                                    <constraint firstItem="72S-Ql-urp" firstAttribute="centerY" secondItem="hxT-M4-FCj" secondAttribute="centerY" id="yEK-g4-Kg3"/>
+                                    <constraint firstAttribute="trailing" secondItem="Iua-y5-30e" secondAttribute="trailing" constant="30" id="z02-Gx-L9A"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ySr-rz-knd" firstAttribute="leading" secondItem="Y2g-e5-WGI" secondAttribute="leading" id="6Rf-Bc-BgN"/>
+                            <constraint firstItem="ySr-rz-knd" firstAttribute="top" secondItem="HGr-5X-Xw1" secondAttribute="top" id="NjE-QT-jDO"/>
+                            <constraint firstItem="Y2g-e5-WGI" firstAttribute="trailing" secondItem="ySr-rz-knd" secondAttribute="trailing" id="beF-My-3na"/>
+                            <constraint firstAttribute="bottom" secondItem="ySr-rz-knd" secondAttribute="bottom" id="gke-d9-Mah"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Y2g-e5-WGI"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="16G-1I-AJK"/>
+                    <connections>
+                        <outlet property="scanTeddyBtn" destination="Iua-y5-30e" id="uaf-lZ-tOe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6EM-U9-GP6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2004" y="107"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="xH4-ax-hez">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Ug7-OW-dEc" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Sd2-7y-2XK">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BM5-6X-DnV" kind="relationship" relationship="rootViewController" id="wVF-qp-thb"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eV3-P2-m9M" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1126" y="107"/>
+        </scene>
+        <!--Side Menu Navigation Controller-->
+        <scene sceneID="YzM-qO-18m">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" hidesBarsOnTap="YES" id="8jy-Dr-Duj" customClass="UISideMenuNavigationController" customModule="SideMenu" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="G54-am-my3">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="leftSide" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <segue destination="vRi-9J-8h2" kind="relationship" relationship="rootViewController" id="uXP-le-lmJ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FH4-Aj-EtZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1224.8" y="829.83508245877067"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="TR13" width="209" height="226"/>
+        <image name="arTeddyLogo" width="328" height="281"/>
+        <image name="back" width="39" height="39"/>
+        <image name="bck" width="72" height="72"/>
+        <image name="menuIcon" width="37.5" height="37.5"/>
+        <image name="presidentRoosvelt" width="440" height="621"/>
+        <image name="rooseveltMainImg" width="710" height="1411"/>
+    </resources>
+</document>

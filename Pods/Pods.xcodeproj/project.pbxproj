@@ -1,0 +1,975 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00024018B270EEEC48E8913163C61BDA /* Pods-AR TeddyTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D9EC6F4A0C6DEE88D288852496D199E4 /* Pods-AR TeddyTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		163F973C46A66F40742BF7DF7A2AA5C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		19F6EAFCD3A3F42DA3FBEDD4EF9BB18D /* Pods-AR Teddy-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 664958C5246072DA00C6027FD34D4ADE /* Pods-AR Teddy-dummy.m */; };
+		47AE94AA955C7480AF29E1B2001D7968 /* Pods-AR Teddy-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1D86B7E2693409CAA9CDCDA95615A57 /* Pods-AR Teddy-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A25E974C82D5BCEAAD4A49ED5A08887 /* SideMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 91583160085BBC49A8B8785E944D42FD /* SideMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7721D8B62C09BB22C5C53DC65A23EC0C /* SideMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D9AC95686EF562F6EED87E6BDB4D27 /* SideMenu-dummy.m */; };
+		8087D70B06A9D8302B65BCC70BFD4761 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		894971061303E09F4C3C6DCDF8FEB8F7 /* Pods-AR TeddyTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC28995618A7D36991299054ED21D798 /* Pods-AR TeddyTests-dummy.m */; };
+		8DBA0AEFCC1A48A3604E802FD3957D85 /* SideMenuTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954001B39AB14626D44FDF9E55316AD5 /* SideMenuTransition.swift */; };
+		AA4E2D3920ACD8A9ADD828FE8664C99F /* UITableViewVibrantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EEF4D34F8A705CFF26692E99867C1C0 /* UITableViewVibrantCell.swift */; };
+		BC8EE1F3B3C905E3FA23DD5745A8D2F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		BE508DE1590722A1C1AC306E914BE68C /* UISideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B2FD8026413AE249DB1766204D26C4 /* UISideMenuNavigationController.swift */; };
+		BFA1EB5281EBFDDB2EF3F86DB43602E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		C3909FC26C1856D4B3A3B7673B6EC2E6 /* Pods-AR TeddyUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CBB05C29B99E3974B72A2C090E4B6780 /* Pods-AR TeddyUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4EA5CB7048396AC642D56531F602BBB /* SideMenuManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B809922A60077C81535ED6243D064668 /* SideMenuManager.swift */; };
+		F5EE435A97BCD4C656383CBFD3E484A5 /* Pods-AR TeddyUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 102C253B8C337853A77B1BB029A13C4B /* Pods-AR TeddyUITests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1515D8FF560AB36639EF01E6E6F6EC83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A298D7405E036C91ED76697B722CE4F;
+			remoteInfo = "Pods-AR Teddy";
+		};
+		2B489DC53337B36CD74B1D7985D53B02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A298D7405E036C91ED76697B722CE4F;
+			remoteInfo = "Pods-AR Teddy";
+		};
+		98EC26F18FCC9EC4329F2165176473E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE2F4F717E244ABFC8F76ED95C4E257A;
+			remoteInfo = SideMenu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		102C253B8C337853A77B1BB029A13C4B /* Pods-AR TeddyUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AR TeddyUITests-dummy.m"; sourceTree = "<group>"; };
+		18CA7FF5DA22BB0A035B4FCCA5E4D258 /* Pods_AR_Teddy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AR_Teddy.framework; path = "Pods-AR Teddy.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D9331B7E4F3E6FC3A2835EF3034A18E /* Pods-AR TeddyUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AR TeddyUITests-Info.plist"; sourceTree = "<group>"; };
+		207A1111F2608AD854EDB006C16A9FE3 /* Pods-AR TeddyUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AR TeddyUITests.modulemap"; sourceTree = "<group>"; };
+		2861C6EDF5D8C3796C314764DC58DFA0 /* Pods-AR Teddy.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AR Teddy.modulemap"; sourceTree = "<group>"; };
+		2DB76D68D935EAB33A35EA6AA6339C00 /* Pods-AR TeddyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AR TeddyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		308913E078C698FDA7128BECDAAAA447 /* Pods-AR TeddyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AR TeddyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		358D7715A8B72AEE154A9BAFDC830397 /* SideMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SideMenu-prefix.pch"; sourceTree = "<group>"; };
+		40F52DA2CEE57F763713CFCEAE2A8C38 /* Pods-AR Teddy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AR Teddy.release.xcconfig"; sourceTree = "<group>"; };
+		46B2FD8026413AE249DB1766204D26C4 /* UISideMenuNavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UISideMenuNavigationController.swift; path = Pod/Classes/UISideMenuNavigationController.swift; sourceTree = "<group>"; };
+		5F4BC65368C1CF531391EABA9D9ABF77 /* Pods-AR Teddy-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AR Teddy-acknowledgements.plist"; sourceTree = "<group>"; };
+		64AE6951F4889336569B3D1CB756B178 /* Pods-AR TeddyTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AR TeddyTests.modulemap"; sourceTree = "<group>"; };
+		664958C5246072DA00C6027FD34D4ADE /* Pods-AR Teddy-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AR Teddy-dummy.m"; sourceTree = "<group>"; };
+		680DCE89A480ACD91140A614A64E91CB /* SideMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SideMenu.framework; path = SideMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C240FC3D87E8B49CDD471ECAAA279D1 /* Pods-AR Teddy-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AR Teddy-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6EEF4D34F8A705CFF26692E99867C1C0 /* UITableViewVibrantCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITableViewVibrantCell.swift; path = Pod/Classes/UITableViewVibrantCell.swift; sourceTree = "<group>"; };
+		75279295D5B2E4A1996AB4702BDE9F3E /* Pods-AR TeddyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AR TeddyTests.release.xcconfig"; sourceTree = "<group>"; };
+		91583160085BBC49A8B8785E944D42FD /* SideMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SideMenu-umbrella.h"; sourceTree = "<group>"; };
+		954001B39AB14626D44FDF9E55316AD5 /* SideMenuTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuTransition.swift; path = Pod/Classes/SideMenuTransition.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A210DEADB2769ABB9B804BBAE8A87361 /* Pods-AR Teddy-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AR Teddy-Info.plist"; sourceTree = "<group>"; };
+		A7163EEBC64CA6091991BE3ECA97A187 /* SideMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SideMenu.xcconfig; sourceTree = "<group>"; };
+		A99637F32FB7396A12BEF4E4BD04636B /* Pods-AR TeddyTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AR TeddyTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AA7C85918CA946A5DFC7F64B45EC1150 /* Pods_AR_TeddyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AR_TeddyTests.framework; path = "Pods-AR TeddyTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B176A4E807FC50706EDA8D251AFE8278 /* Pods-AR TeddyTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AR TeddyTests-Info.plist"; sourceTree = "<group>"; };
+		B809922A60077C81535ED6243D064668 /* SideMenuManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuManager.swift; path = Pod/Classes/SideMenuManager.swift; sourceTree = "<group>"; };
+		BBA87D2C1789C42E4537548D44114761 /* SideMenu-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SideMenu-Info.plist"; sourceTree = "<group>"; };
+		BC28995618A7D36991299054ED21D798 /* Pods-AR TeddyTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AR TeddyTests-dummy.m"; sourceTree = "<group>"; };
+		C69C925DA2751618D43E7811AF5EE8D1 /* Pods-AR TeddyUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AR TeddyUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CBB05C29B99E3974B72A2C090E4B6780 /* Pods-AR TeddyUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AR TeddyUITests-umbrella.h"; sourceTree = "<group>"; };
+		CECD6E768270B515C1DB64CE92CCAB3F /* Pods-AR Teddy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AR Teddy.debug.xcconfig"; sourceTree = "<group>"; };
+		D1D9AC95686EF562F6EED87E6BDB4D27 /* SideMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SideMenu-dummy.m"; sourceTree = "<group>"; };
+		D43F8909A6D6A297D0C57B53FCC48BDE /* SideMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SideMenu.modulemap; sourceTree = "<group>"; };
+		D5FD54244EBFE8992478D0AFC4E695BC /* Pods-AR TeddyTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AR TeddyTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D9EC6F4A0C6DEE88D288852496D199E4 /* Pods-AR TeddyTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AR TeddyTests-umbrella.h"; sourceTree = "<group>"; };
+		DE12C0FE5901D9939677490D9FCCB752 /* Pods_AR_TeddyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AR_TeddyUITests.framework; path = "Pods-AR TeddyUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1D86B7E2693409CAA9CDCDA95615A57 /* Pods-AR Teddy-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AR Teddy-umbrella.h"; sourceTree = "<group>"; };
+		E9AC643FC6EEEF1B9F53B0A15DC70589 /* Pods-AR TeddyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AR TeddyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EDD1BE673EA796DB6A0B0E0DA8467E1B /* Pods-AR TeddyUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AR TeddyUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FB2B5272F347FD7E21BE252418B4DA8B /* Pods-AR Teddy-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AR Teddy-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		125CF390947AA9D62D964272740A645F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA1EB5281EBFDDB2EF3F86DB43602E6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71D8B3B6544E8BE85AFEB694D9C18CFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC8EE1F3B3C905E3FA23DD5745A8D2F8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B06F9406F4D2CC792312D6FD92CAD839 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8087D70B06A9D8302B65BCC70BFD4761 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B133004E5B31B741B7AC67E4E18AD04D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				163F973C46A66F40742BF7DF7A2AA5C0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42D10550D1F3BAFF718B19A646E0BB6D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5DBBCC8AB39696CB25CE21ABD25B2586 /* Pods-AR Teddy */,
+				7B0B744A1D807D8E768F0A0F152BFDEF /* Pods-AR TeddyTests */,
+				460EB5DD46430572F10D9EEAC90AF9FC /* Pods-AR TeddyUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		460EB5DD46430572F10D9EEAC90AF9FC /* Pods-AR TeddyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				207A1111F2608AD854EDB006C16A9FE3 /* Pods-AR TeddyUITests.modulemap */,
+				C69C925DA2751618D43E7811AF5EE8D1 /* Pods-AR TeddyUITests-acknowledgements.markdown */,
+				EDD1BE673EA796DB6A0B0E0DA8467E1B /* Pods-AR TeddyUITests-acknowledgements.plist */,
+				102C253B8C337853A77B1BB029A13C4B /* Pods-AR TeddyUITests-dummy.m */,
+				1D9331B7E4F3E6FC3A2835EF3034A18E /* Pods-AR TeddyUITests-Info.plist */,
+				CBB05C29B99E3974B72A2C090E4B6780 /* Pods-AR TeddyUITests-umbrella.h */,
+				E9AC643FC6EEEF1B9F53B0A15DC70589 /* Pods-AR TeddyUITests.debug.xcconfig */,
+				2DB76D68D935EAB33A35EA6AA6339C00 /* Pods-AR TeddyUITests.release.xcconfig */,
+			);
+			name = "Pods-AR TeddyUITests";
+			path = "Target Support Files/Pods-AR TeddyUITests";
+			sourceTree = "<group>";
+		};
+		5DBBCC8AB39696CB25CE21ABD25B2586 /* Pods-AR Teddy */ = {
+			isa = PBXGroup;
+			children = (
+				2861C6EDF5D8C3796C314764DC58DFA0 /* Pods-AR Teddy.modulemap */,
+				6C240FC3D87E8B49CDD471ECAAA279D1 /* Pods-AR Teddy-acknowledgements.markdown */,
+				5F4BC65368C1CF531391EABA9D9ABF77 /* Pods-AR Teddy-acknowledgements.plist */,
+				664958C5246072DA00C6027FD34D4ADE /* Pods-AR Teddy-dummy.m */,
+				FB2B5272F347FD7E21BE252418B4DA8B /* Pods-AR Teddy-frameworks.sh */,
+				A210DEADB2769ABB9B804BBAE8A87361 /* Pods-AR Teddy-Info.plist */,
+				E1D86B7E2693409CAA9CDCDA95615A57 /* Pods-AR Teddy-umbrella.h */,
+				CECD6E768270B515C1DB64CE92CCAB3F /* Pods-AR Teddy.debug.xcconfig */,
+				40F52DA2CEE57F763713CFCEAE2A8C38 /* Pods-AR Teddy.release.xcconfig */,
+			);
+			name = "Pods-AR Teddy";
+			path = "Target Support Files/Pods-AR Teddy";
+			sourceTree = "<group>";
+		};
+		7155084DE1C39A2ECAC0E620D169887D /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				B809922A60077C81535ED6243D064668 /* SideMenuManager.swift */,
+				954001B39AB14626D44FDF9E55316AD5 /* SideMenuTransition.swift */,
+				46B2FD8026413AE249DB1766204D26C4 /* UISideMenuNavigationController.swift */,
+				6EEF4D34F8A705CFF26692E99867C1C0 /* UITableViewVibrantCell.swift */,
+				9A36B9E178A2E4C8BD3EBDD0312C0511 /* Support Files */,
+			);
+			name = SideMenu;
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		732BB26B89178C1F9108F9813491E1C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18CA7FF5DA22BB0A035B4FCCA5E4D258 /* Pods_AR_Teddy.framework */,
+				AA7C85918CA946A5DFC7F64B45EC1150 /* Pods_AR_TeddyTests.framework */,
+				DE12C0FE5901D9939677490D9FCCB752 /* Pods_AR_TeddyUITests.framework */,
+				680DCE89A480ACD91140A614A64E91CB /* SideMenu.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B0B744A1D807D8E768F0A0F152BFDEF /* Pods-AR TeddyTests */ = {
+			isa = PBXGroup;
+			children = (
+				64AE6951F4889336569B3D1CB756B178 /* Pods-AR TeddyTests.modulemap */,
+				D5FD54244EBFE8992478D0AFC4E695BC /* Pods-AR TeddyTests-acknowledgements.markdown */,
+				A99637F32FB7396A12BEF4E4BD04636B /* Pods-AR TeddyTests-acknowledgements.plist */,
+				BC28995618A7D36991299054ED21D798 /* Pods-AR TeddyTests-dummy.m */,
+				B176A4E807FC50706EDA8D251AFE8278 /* Pods-AR TeddyTests-Info.plist */,
+				D9EC6F4A0C6DEE88D288852496D199E4 /* Pods-AR TeddyTests-umbrella.h */,
+				308913E078C698FDA7128BECDAAAA447 /* Pods-AR TeddyTests.debug.xcconfig */,
+				75279295D5B2E4A1996AB4702BDE9F3E /* Pods-AR TeddyTests.release.xcconfig */,
+			);
+			name = "Pods-AR TeddyTests";
+			path = "Target Support Files/Pods-AR TeddyTests";
+			sourceTree = "<group>";
+		};
+		83D0C43857BE7BA3B47029F87629C870 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7155084DE1C39A2ECAC0E620D169887D /* SideMenu */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9A36B9E178A2E4C8BD3EBDD0312C0511 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D43F8909A6D6A297D0C57B53FCC48BDE /* SideMenu.modulemap */,
+				A7163EEBC64CA6091991BE3ECA97A187 /* SideMenu.xcconfig */,
+				D1D9AC95686EF562F6EED87E6BDB4D27 /* SideMenu-dummy.m */,
+				BBA87D2C1789C42E4537548D44114761 /* SideMenu-Info.plist */,
+				358D7715A8B72AEE154A9BAFDC830397 /* SideMenu-prefix.pch */,
+				91583160085BBC49A8B8785E944D42FD /* SideMenu-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SideMenu";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				83D0C43857BE7BA3B47029F87629C870 /* Pods */,
+				732BB26B89178C1F9108F9813491E1C6 /* Products */,
+				42D10550D1F3BAFF718B19A646E0BB6D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6A532483CAD2B33D6F497455D57472A3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47AE94AA955C7480AF29E1B2001D7968 /* Pods-AR Teddy-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B6D5EB35F1B0D8F758031AF6C60F2C3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00024018B270EEEC48E8913163C61BDA /* Pods-AR TeddyTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D34057F64EF42E5A9B67B7A30E0D7EDA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A25E974C82D5BCEAAD4A49ED5A08887 /* SideMenu-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E30023C44DE7574B28D285CECD2F5BC6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3909FC26C1856D4B3A3B7673B6EC2E6 /* Pods-AR TeddyUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2A298D7405E036C91ED76697B722CE4F /* Pods-AR Teddy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48A4E849E5F16BDDBD2320ACD3914654 /* Build configuration list for PBXNativeTarget "Pods-AR Teddy" */;
+			buildPhases = (
+				6A532483CAD2B33D6F497455D57472A3 /* Headers */,
+				B1753B702072195EB6C39E692FC3575A /* Sources */,
+				B06F9406F4D2CC792312D6FD92CAD839 /* Frameworks */,
+				EC305693D6C23B47306E9D2FC3D46797 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				624399DAE27AEB74A4B22B73625724D4 /* PBXTargetDependency */,
+			);
+			name = "Pods-AR Teddy";
+			productName = "Pods-AR Teddy";
+			productReference = 18CA7FF5DA22BB0A035B4FCCA5E4D258 /* Pods_AR_Teddy.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AE2F4F717E244ABFC8F76ED95C4E257A /* SideMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75FA3A3F0BDE68596788476E9CAAC1B1 /* Build configuration list for PBXNativeTarget "SideMenu" */;
+			buildPhases = (
+				D34057F64EF42E5A9B67B7A30E0D7EDA /* Headers */,
+				7E6BE1D9C098DB45924A27838DE1307A /* Sources */,
+				71D8B3B6544E8BE85AFEB694D9C18CFE /* Frameworks */,
+				0F466643AE8DC5C81DCEB23DC842DD6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SideMenu;
+			productName = SideMenu;
+			productReference = 680DCE89A480ACD91140A614A64E91CB /* SideMenu.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B27F7ABE3030A5FB8B33DA80C43A785D /* Pods-AR TeddyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BDCB7B8B46290A88D23D4A98240D3AE /* Build configuration list for PBXNativeTarget "Pods-AR TeddyTests" */;
+			buildPhases = (
+				6B6D5EB35F1B0D8F758031AF6C60F2C3 /* Headers */,
+				EEC4C9FFB2C29A0705618F876829A3B8 /* Sources */,
+				B133004E5B31B741B7AC67E4E18AD04D /* Frameworks */,
+				75BF3C0424C571B1D50524BF19263C7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B6AE4802578CD701033ABD3D2F36C7F /* PBXTargetDependency */,
+			);
+			name = "Pods-AR TeddyTests";
+			productName = "Pods-AR TeddyTests";
+			productReference = AA7C85918CA946A5DFC7F64B45EC1150 /* Pods_AR_TeddyTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FF470FD9B8B18681DB3D882F8F7D91CC /* Pods-AR TeddyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18DE7276015B84E921DBE15AC66B29B8 /* Build configuration list for PBXNativeTarget "Pods-AR TeddyUITests" */;
+			buildPhases = (
+				E30023C44DE7574B28D285CECD2F5BC6 /* Headers */,
+				C8D78B5BB6BAFB10AE36674CD751D490 /* Sources */,
+				125CF390947AA9D62D964272740A645F /* Frameworks */,
+				9ED839FA237EC4C45FAFC3FFA9D93DFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CF0E0FCC860A0CCFA0DB6CC15C19EF7 /* PBXTargetDependency */,
+			);
+			name = "Pods-AR TeddyUITests";
+			productName = "Pods-AR TeddyUITests";
+			productReference = DE12C0FE5901D9939677490D9FCCB752 /* Pods_AR_TeddyUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 732BB26B89178C1F9108F9813491E1C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A298D7405E036C91ED76697B722CE4F /* Pods-AR Teddy */,
+				B27F7ABE3030A5FB8B33DA80C43A785D /* Pods-AR TeddyTests */,
+				FF470FD9B8B18681DB3D882F8F7D91CC /* Pods-AR TeddyUITests */,
+				AE2F4F717E244ABFC8F76ED95C4E257A /* SideMenu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F466643AE8DC5C81DCEB23DC842DD6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75BF3C0424C571B1D50524BF19263C7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ED839FA237EC4C45FAFC3FFA9D93DFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC305693D6C23B47306E9D2FC3D46797 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E6BE1D9C098DB45924A27838DE1307A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7721D8B62C09BB22C5C53DC65A23EC0C /* SideMenu-dummy.m in Sources */,
+				C4EA5CB7048396AC642D56531F602BBB /* SideMenuManager.swift in Sources */,
+				8DBA0AEFCC1A48A3604E802FD3957D85 /* SideMenuTransition.swift in Sources */,
+				BE508DE1590722A1C1AC306E914BE68C /* UISideMenuNavigationController.swift in Sources */,
+				AA4E2D3920ACD8A9ADD828FE8664C99F /* UITableViewVibrantCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1753B702072195EB6C39E692FC3575A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19F6EAFCD3A3F42DA3FBEDD4EF9BB18D /* Pods-AR Teddy-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8D78B5BB6BAFB10AE36674CD751D490 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5EE435A97BCD4C656383CBFD3E484A5 /* Pods-AR TeddyUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEC4C9FFB2C29A0705618F876829A3B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				894971061303E09F4C3C6DCDF8FEB8F7 /* Pods-AR TeddyTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		624399DAE27AEB74A4B22B73625724D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SideMenu;
+			target = AE2F4F717E244ABFC8F76ED95C4E257A /* SideMenu */;
+			targetProxy = 98EC26F18FCC9EC4329F2165176473E4 /* PBXContainerItemProxy */;
+		};
+		6CF0E0FCC860A0CCFA0DB6CC15C19EF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AR Teddy";
+			target = 2A298D7405E036C91ED76697B722CE4F /* Pods-AR Teddy */;
+			targetProxy = 1515D8FF560AB36639EF01E6E6F6EC83 /* PBXContainerItemProxy */;
+		};
+		7B6AE4802578CD701033ABD3D2F36C7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AR Teddy";
+			target = 2A298D7405E036C91ED76697B722CE4F /* Pods-AR Teddy */;
+			targetProxy = 2B489DC53337B36CD74B1D7985D53B02 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0E8E1A861B164F2DBF0645C6D8D84ACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75279295D5B2E4A1996AB4702BDE9F3E /* Pods-AR TeddyTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AR TeddyTests/Pods-AR TeddyTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AR TeddyTests/Pods-AR TeddyTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		132511C4DBA384679F365F50CDED559E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CECD6E768270B515C1DB64CE92CCAB3F /* Pods-AR Teddy.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AR Teddy/Pods-AR Teddy-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AR Teddy/Pods-AR Teddy.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1673BCA69E9FD66BBDB9B0BEAF5D762F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 308913E078C698FDA7128BECDAAAA447 /* Pods-AR TeddyTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AR TeddyTests/Pods-AR TeddyTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AR TeddyTests/Pods-AR TeddyTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		247CEDFAF93EC845BCF34B88CFECC5C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7163EEBC64CA6091991BE3ECA97A187 /* SideMenu.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SideMenu/SideMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SideMenu/SideMenu-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SideMenu/SideMenu.modulemap";
+				PRODUCT_MODULE_NAME = SideMenu;
+				PRODUCT_NAME = SideMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6767C4D2DD28D8A9147C90D89186535A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40F52DA2CEE57F763713CFCEAE2A8C38 /* Pods-AR Teddy.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AR Teddy/Pods-AR Teddy-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AR Teddy/Pods-AR Teddy.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		72873CE231C8216B706B566D3EA1DAC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7163EEBC64CA6091991BE3ECA97A187 /* SideMenu.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SideMenu/SideMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SideMenu/SideMenu-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SideMenu/SideMenu.modulemap";
+				PRODUCT_MODULE_NAME = SideMenu;
+				PRODUCT_NAME = SideMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7F943FAF4D6DE96FE0724594AC938212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DB76D68D935EAB33A35EA6AA6339C00 /* Pods-AR TeddyUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AR TeddyUITests/Pods-AR TeddyUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AR TeddyUITests/Pods-AR TeddyUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A105C1752A0A49B30ED621B71E226CDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BD80A7D05F3BCB529D2343A83C91AA4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9AC643FC6EEEF1B9F53B0A15DC70589 /* Pods-AR TeddyUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AR TeddyUITests/Pods-AR TeddyUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AR TeddyUITests/Pods-AR TeddyUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C1391485F05B41BD35738A433056B7FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18DE7276015B84E921DBE15AC66B29B8 /* Build configuration list for PBXNativeTarget "Pods-AR TeddyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD80A7D05F3BCB529D2343A83C91AA4D /* Debug */,
+				7F943FAF4D6DE96FE0724594AC938212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BDCB7B8B46290A88D23D4A98240D3AE /* Build configuration list for PBXNativeTarget "Pods-AR TeddyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1673BCA69E9FD66BBDB9B0BEAF5D762F /* Debug */,
+				0E8E1A861B164F2DBF0645C6D8D84ACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1391485F05B41BD35738A433056B7FA /* Debug */,
+				A105C1752A0A49B30ED621B71E226CDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48A4E849E5F16BDDBD2320ACD3914654 /* Build configuration list for PBXNativeTarget "Pods-AR Teddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				132511C4DBA384679F365F50CDED559E /* Debug */,
+				6767C4D2DD28D8A9147C90D89186535A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75FA3A3F0BDE68596788476E9CAAC1B1 /* Build configuration list for PBXNativeTarget "SideMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72873CE231C8216B706B566D3EA1DAC9 /* Debug */,
+				247CEDFAF93EC845BCF34B88CFECC5C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
